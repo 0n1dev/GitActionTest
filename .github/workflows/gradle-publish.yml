@@ -48,4 +48,4 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: |
-          registry.koo.gg/KooGG/KooGGBot:${{ steps.image.outputs.tag }}
+          registry.koo.gg/kooggbot:${{ steps.image.outputs.tag }}
